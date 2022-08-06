@@ -6,19 +6,12 @@ import friends from "./FriendList/friends.json";
 import FriendList from './FriendList/FriendList';
 import transactions from "./Transactions/transactions.json";
 import TransactionHistory from './Transactions/TransactionHistory';
+import css from './Container.module.css';
+
 
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
+    <div className={css.container}>
      <Profile
   username={user.username}
   tag={user.tag}
