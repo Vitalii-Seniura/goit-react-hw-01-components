@@ -1,0 +1,26 @@
+.transactionHistory {
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    table-layout: fixed;
+    width: 650px;
+}
+
+thead {
+    background-color: lightsteelblue;
+}
+
+tr {
+    border: 1px solid #ccc;
+
+}
+
+td {
+    border: 1px solid #ccc;
+    font-size: 30px;
+    text-align: center;
+}
+
+th {
+    border: 1px solid #ccc;
+}
